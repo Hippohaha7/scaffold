@@ -1,8 +1,9 @@
-print("Hello World")
+def toyou(x):
+    return f"hi {x}"
 
+def add(x):
+    return x + 1
 
-def add(x, y):
-    return x + y
-
-
-print(f"This is the sum: {add(1,2)}")
+def subtract(x):
+    return x - 1
+    
